@@ -1,0 +1,35 @@
+{
+    "name": "repeat-string",
+    "version": "1.0.0",
+    "description": "Gives you a repated string to print based on a given value.",
+    "main": "index.js",
+    "scripts": {
+        "test": "xo && ava"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/IAmAnubhavSaini/repeat-string.git"
+    },
+    "keywords": [
+        "repeat-string",
+        "string",
+        "repeat",
+        "javascript"
+    ],
+    "author": "Anubhav Saini <IAmAnubhavSaini@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/IAmAnubhavSaini/repeat-string/issues"
+    },
+    "homepage": "https://github.com/IAmAnubhavSaini/repeat-string#readme",
+    "dependencies": {
+        "formatted-string": "^1.0.0"
+    },
+    "devDependencies": {
+        "ava": "^0.15.2",
+        "xo": "^0.16.0"
+    },
+    "xo": {
+        "space": 4
+    }
+}
