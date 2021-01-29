@@ -1,6 +1,6 @@
 {
     "name": "@f0c1s/repeat-string",
-    "version": "4.0.0",
+    "version": "5.0.0",
     "description": "Gives you a repeated string to print based on a given value.",
     "main": "src/repeat-string.js",
     "scripts": {

@@ -14,6 +14,8 @@ npm i @f0c1s/repeat-string
 
 ```javascript
 
+const {repeat: r} = require('@f0c1s/repeat-string')
+
 var str = r("a", 5)
 
 console.log(str)
