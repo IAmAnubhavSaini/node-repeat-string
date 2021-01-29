@@ -1,11 +1,7 @@
-const f = require('formatted-string');
+const {formatted} = require('formatted-string');
 
-function repeat(toRepeat, times) {
-    let str = '';
-    for (let i = 0; i < times; i++) {
-        str += '{x}';
-    }
-    return f.formatted(str, {x: toRepeat});
+function repeat(toRepeat: string, times: number) {
+    return formatted(Array(times).fill('{toRepeat}').join(''), {toRepeat});
 }
 
 export = {repeat}
