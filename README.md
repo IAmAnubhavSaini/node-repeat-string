@@ -6,7 +6,7 @@ Repeating a string based upon the `value` and `times` passed.
 
 ```bash
 
-npm i repeat-string
+npm i @f0c1s/repeat-string
 
 ```
 
